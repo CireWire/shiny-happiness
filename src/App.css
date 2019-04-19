@@ -1,0 +1,100 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#app {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+}
+
+#app div {
+	width: 100%;
+}
+
+#app div div {
+	height: 100%;
+}
+
+#app div div div {
+	position: relative;
+	height: auto;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+textarea {
+	height: auto;
+	margin-top: 25px;
+	max-width: 90%;
+}
+
+h2 {
+	width: 290px;
+	max-width: 90%;
+	margin: 20px auto;
+	overflow-wrap: break-word;
+}
+
+button {
+	-webkit-transition-duration: 0.1s; /* Safari */
+	transition-duration: 0.1s;
+	background-color: rgb(70, 227, 255);
+	border-radius: 8px;
+	border-bottom: 4px solid rgb(62, 158, 175);
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	letter-spacing: 2px;
+	/* enthused only */
+	width: 220px;
+}
+
+button:hover {
+  background-color: rgb(150, 239, 255);
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid rgb(62, 158, 175);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+  /* enthused only */
+  width: 220px;
+}
+
+button:active {
+  background-color: rgb(150, 239, 255);
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid rgb(62, 158, 175);
+  color: #CCC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+  /* enthused only */
+  width: 220px;
+}
